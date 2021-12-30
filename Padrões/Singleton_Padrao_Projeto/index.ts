@@ -1,10 +1,10 @@
 
-import { bancoInstanciado } from "./adicionando";
+import { estanteInstanciada } from "./adicionando";
 
-const data = bancoInstanciado;
+const estante = estanteInstanciada;
 
-data.adicionar({ nome: 'João Paulo', idade: 30 });
+estante.adicionar({ titulo: 'Orgulho e Percepção', autor: 'Jane Austen' });
 
-data.adicionar({ nome: 'Lucas Oliveira', idade: 50 });
+estante.adicionar({ titulo: '1984', autor: 'George Orwell' });
 
-data.mostrar();
+estante.mostrar();

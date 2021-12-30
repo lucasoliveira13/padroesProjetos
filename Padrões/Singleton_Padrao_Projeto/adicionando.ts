@@ -1,7 +1,7 @@
-import { Banco } from './banco-de-dados/banco';
+import { Estante } from './estante/estante';
 
-const bancoInstanciado = Banco.getInstance();
+const estanteInstanciada = Estante.getInstance();
 
-bancoInstanciado.adicionar({ nome: 'Jean', idade: 30 });
+estanteInstanciada.adicionar({ titulo: 'Cinquenta tons de cinza', autor: 'E L James' });
 
-export { bancoInstanciado };
+export { estanteInstanciada };
