@@ -1,4 +1,8 @@
 # Singleton
+Para a disciplina padrões de projeto. 
+Grupo: Jean Felipe Coelho Ferreira
+João Paulo Queiroz Pires
+Lucas Matheus da Silva Oliveira
 
 ## Finalidade
 
@@ -21,7 +25,7 @@ O singleton por possuir duas responsabilidades acaba quebrando a regra SRP (Sing
 
 ## Estrutura
 
-<img src="/singleton/diagramas/Singleton.png">
+<img src="/imagens/Singleton.jpeg">
 
 ## Aplicação
 
@@ -36,7 +40,7 @@ Implementação deve mudar de linguagem para linguagem, em Python seria de uma m
 
 - Declarar um campo privado na classe para armazenar a instância do Singleton.
 - Declarar um método público getters para obter a instância do Singleton;
-- Na chamada do método público, adicione _lazy instantiation_, que verifica se uma instância do Singleton já foi criada; se foi, retorne-a, se não crie uma nova instância e retorne-a.
+- Na chamada do método público, o _lazy instantiation_ é chamado, que verifica se uma instância do Singleton já foi criada; se foi, retorne-a, se não crie uma nova instância e retorne-a.
 - Não permita que novas instâncias da classe. Você pode atingir facilmente este objetivo fazendo o construtor da classe privado.
 
 ## Vantagens
