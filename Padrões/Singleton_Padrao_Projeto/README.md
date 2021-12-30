@@ -41,7 +41,7 @@ Implementação deve mudar de linguagem para linguagem, em Python seria de uma m
 - Na chamada do método público, adicione *lazy instantiation*, que verifica se uma instância do Singleton já foi criada; se foi, retorne-a, se não crie uma nova instância e retorne-a.
 - Não permita que novas instâncias da classe. Você pode atingir facilmente este objetivo fazendo o construtor da classe privado.
 
-## Vanstagens
+## Vantagens
 
 - Acesso controlado por encapsulamento à instância única;
 - Permite um número variável de instâncias;
