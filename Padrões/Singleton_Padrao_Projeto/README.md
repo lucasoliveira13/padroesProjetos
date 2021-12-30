@@ -52,19 +52,18 @@ Implementação deve mudar de linguagem para linguagem, em Python seria de uma m
 - Não corresponde o princípio da responsabilidade única;
 - Necessita de um tratamento especial em casos de concorrência;
 
-Fizemos o seguinte criamos uma Estante para armazenar livros em memória no caso, usamos módulos para importar essa estante e usar ela.
-No código começamos exportando a nossa Estante e ai a gente cria o singleton.
-Criamos o atributo que vai sustentar a nossa instância
-Essa instância vai ser do tipo estante que a própria
-classe ou ele pode ser nulo também,
-Outra coisa que fizemos foi colocar um construtor privado para não poder utilizar a funcionalidade new() dentro dessa dessa classe.
-Criamos o getter para instância da forma que se já estivesse criada utilizaria a mesma e não criaria uma nova, e dessa forma a própria classe vai gerenciar a instância, e isso já configura um singleton.
-A partir disso começamos a implementar a nossa insstância de estante,
-Criamos um atributo privado livros que é um array do tipo Livro (que é uma interface que traz a estrutura de um livro, título e autor), e lá
-ficarão armazenados em memória os livros inseridos.
-A partir desse cenário começamos a fazer os métodos que uma estante executaria.
-Primeiramente o adicionar que iria receber um atributo do tipo Livro, e seria inserido no atributo livros.
-Depois o remover que retiraria o livro do atributo livros de acordo com o indice informado por parametro.
-E também o mostrar que exibiria no console os livros que estão atualmente na estante.
-Após isso foi instanciada a estante no arquivo adicionando.ts e logo após isso adicionado um livro e exportado essa instância.
-Logo em seguida importamos a instância do arquivo adicionando.ts e no arquivo index.ts, jogamos dentro de uma constante, adicionamos mais dois livros e utilizamos o método mostrar para exibi-los no console.
+## Desenvolvimento
+
+- Fizemos o seguinte criamos uma Estante para armazenar livros em memória no caso, usamos módulos para importar essa estante e usar ela.
+- No código começamos exportando a nossa Estante e ai a gente cria o singleton.
+- Criamos o atributo que vai sustentar a nossa instância, essa instância vai ser do tipo estante que é a própria classe, ou ele pode ser nulo também.
+- Outra coisa que fizemos foi colocar um construtor privado para não poder utilizar a funcionalidade new() dentro dessa dessa classe.
+- Criamos o getter para instância da forma que se já estivesse criada utilizaria a mesma e não criaria uma nova, e dessa forma a própria classe vai gerenciar a instância, e isso já configura um singleton.
+- A partir disso começamos a implementar a nossa insstância de estante.
+- Criamos um atributo privado livros que é um array do tipo Livro (que é uma interface que traz a estrutura de um livro, título e autor), e lá ficarão armazenados em memória os livros inseridos.
+- A partir desse cenário começamos a fazer os métodos que uma estante executaria.
+- Primeiramente o adicionar que iria receber um atributo do tipo Livro, e seria inserido no atributo livros.
+- Depois o remover que retiraria o livro do atributo livros de acordo com o indice informado por parametro.
+- E também o mostrar que exibiria no console os livros que estão atualmente na estante.
+- Após isso foi instanciada a estante no arquivo adicionando.ts e logo após isso adicionado um livro e exportado essa instância.
+- Logo em seguida importamos a instância do arquivo adicionando.ts e no arquivo index.ts, jogamos dentro de uma constante, adicionamos mais dois livros e utilizamos o método mostrar para exibi-los no console.
