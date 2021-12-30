@@ -25,7 +25,7 @@ O singleton por possuir duas responsabilidades acaba quebrando a regra SRP (Sing
 
 ## Estrutura
 
-<img src="/imagens/Singleton.jpeg">
+<img src="../imagens/Singleton.jpeg">
 
 ## Aplicação
 
