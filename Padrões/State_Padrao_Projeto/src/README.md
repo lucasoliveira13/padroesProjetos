@@ -7,18 +7,15 @@ Lucas Matheus da Silva Oliveira
 ## Finalidade
 
 Basicamente, o State ele tem a capacidade de mudar o jeito que cada objeto se comporta, através da mudança de estado.
----
 
 ## Motivação
 
 O padrão State é motivado por objetos variam o seu comportamento devido as diferentes mensagens que possa receber dependendo do seu estado. Como exemplo, tomamos uma classe Livro, um objeto desta classe terá respostas diferentes, dependendo do seu staus.
 
 
----
-
 ## Estrutura
 
-<img src="../imagens/imagemState.jpeg">
+<img src="../imagem1/imagemState.jpeg">
 
 ## Aplicação
 
