@@ -15,7 +15,7 @@ O padrão State é motivado por objetos variam o seu comportamento devido as dif
 
 ## Estrutura
 
-<img src="../imagem1/imagemState.jpeg">
+<img src="../../imagens/imagemState.jpeg">
 
 ## Aplicação
 
